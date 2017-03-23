@@ -37,9 +37,12 @@ form{
 }
 
 .textbox{
-	display: block;
 	width: 500px;
 	height: 30px;
+}
+
+label{
+	display: block;
 }
 
 .search{
