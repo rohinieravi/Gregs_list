@@ -39,6 +39,7 @@ form{
 .textbox{
 	width: 500px;
 	height: 30px;
+	padding-left: 10px;
 }
 
 label{
@@ -56,21 +57,33 @@ section{
 img{
 	height: 30px;
 	width:30px;
-	border: 1.6px solid lightgrey;
+	border: 1px solid grey;
 	padding-top: 1px;
 	padding-bottom: 1px;
 	vertical-align: middle;
+	background-color: white;
 }
 
-.pages div{
-	border: 1.6px solid lightgrey;
+.pages{
+	border:1.6px solid lightgrey;
+	border-radius: 5px;
 	margin: 40px 0 40px 0;
+	width:400px;
+}
+.pages div{
+	/*border: 1.6px solid lightgrey;
+	margin: 40px 0 40px 0;*/
 	padding: 10px 30px 10px 30px;
 	display: inline-block;
 	font-size: initial;
 }
 
-.pages div:nth-child(1){
+.pages div:nth-child(2){
+	border-left: 1.6px solid lightgrey;
+	border-right: 1.6px solid lightgrey;
+}
+
+/*.pages div:nth-child(1){
 	border-radius: 5px 0 0 5px;
 }
 .pages div:nth-child(3){
@@ -80,7 +93,7 @@ img{
 .pages{
 	padding: 0;
 	font-size: 0;
-}
+}*/
 
 a {
   text-decoration: none;
